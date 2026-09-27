@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { AlertCircle, Clock, AlertTriangle, ImageCheck } from 'lucide-react';
+import { AlertCircle, Clock, AlertTriangle, FileCheck } from 'lucide-react';
 
 export function MetricCards() {
   const metrics = [
@@ -30,7 +30,7 @@ export function MetricCards() {
       title: 'Reused Photos Detected',
       value: '6',
       subtitle: 'pHash photo comparison',
-      icon: ImageCheck,
+      icon: FileCheck,
       iconColor: 'text-[#DC2626]',
     },
   ];
